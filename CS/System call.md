@@ -24,7 +24,7 @@
 - 자식 프로세스가 끝날 때까지 부모 프로세스가 대기하도록 하는 시스템 콜
 - 따라서 실행 순서는 자식 프로세스가 우선
 
-![image-20220314033034590](System call.assets/image-20220314033034590.png)
+<img src="System call.assets/image-20220314033034590.png" alt="image-20220314033034590" style="zoom:80%;" />
 
 ## 4. exec()
 
@@ -34,4 +34,4 @@
 - 덮어씌워진 새로운 프로그램이 실행 됨
 - 프로세스의 구조를 재활용
 
-![image-20220314202012025](System call.assets/image-20220314202012025.png)
+<img src="System call.assets/image-20220314202012025.png" alt="image-20220314202012025" style="zoom:80%;" />
