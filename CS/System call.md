@@ -17,7 +17,7 @@
 - fork() 함수가 호출되면 부모프로세스는 0이상의 값(자식 프로세스의 id)을 반환하고 자식프로세스는 0을 반환
 - 부모와 자식은 동시에 실행됨
 
-![image-20220314032015787](System call.assets/image-20220314032015787.png)
+<img src="System call.assets/image-20220314032015787.png" alt="image-20220314032015787.png" style="zoom:80%;" />
 
 ## 3. wait()
 
