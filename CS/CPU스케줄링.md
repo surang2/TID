@@ -6,7 +6,7 @@
 
   - 다중 프로그래밍 시스템
   - CPU 이용률(Utilization) ↑ / 작업 처리율(Throughput) ↑ / 대기시간(Wating time) ↓ 
-    / 응답시간(Response time) / 총처리시간(Turnaround time) ↓ / 공정성(fairness)
+    / 응답시간(Response time) / 공정성(fairness) / 총처리시간(Turnaround time) ↓ 
   
   
 
@@ -63,7 +63,7 @@
 
   <img src="CPU스케줄링.assets/image-20220320170112558.png" alt="image-20220320170112558" style="zoom:80%;" />
 
-  - 평균 대기 시간이 작으나 기아 발생 가능
+  - 평균 대기 시간이 작으나 Starvation 발생 가능
 
 - HRN
 
@@ -88,7 +88,6 @@
 
   - 시간 할당량 지정(Time Slice)
   - Time Slice가 너무 길다면 FCFS와 동일
-  - 선점이 반영된 FCFS
   - Starvation은 발생하지 않음
   - 순환 FIFO 큐로 구현
 
