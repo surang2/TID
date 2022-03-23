@@ -1,4 +1,4 @@
-# S사칙연산
+# S사칙연산.
 
 ```python
 for tc in range(10):
