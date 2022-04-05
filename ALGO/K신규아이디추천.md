@@ -2,7 +2,7 @@
 
 ```python
 def solution(new_id):
-    cnt = 1
+    cnt = 1 # 수정 사항 체크 변수
     while cnt > 0:
         cnt = 0
         # 1단계 소문자 치환
