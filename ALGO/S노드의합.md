@@ -2,7 +2,7 @@
 
 ```python
 for tc in range(int(input())):
-    N, M, L = map(int, input().split()) #N은 노드의 수, M은 리프노드 개수, L은 출력할 노드번호
+    N, M, L = map(int, input().split()) # N은 노드의 수, M은 리프노드 개수, L은 출력할 노드번호
     tree = [0]*(N+1)
     for i in range(M):
         Idx, Number = map(int, input().split())
