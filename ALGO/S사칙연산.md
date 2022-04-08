@@ -6,7 +6,7 @@ for tc in range(10):
     tree = [0]*(N+1)
     for i in range(N):
         tmp = list(input().split())
-        if tmp[1] in ['+', '-', '*', '/']:
+        if tmp[1] in ['+', '-', '*', '/']: # 인덱스 1,2,3은 문자열 이므로 따로처리
             tree[int(tmp[0])] = (tmp[1],int(tmp[2]),int(tmp[3]))
         else:
             tree[int(tmp[0])] = int(tmp[1])
