@@ -9,7 +9,7 @@ for tc in range(int(input())):
         tree.append(i)
         C = len(tree)-1 # C는 인덱스로 사용할 예정이므로 -1해준다
         while C > 1:
-            P = C // 2 # 부모 노드의 인덱스 도출
+            P = C // 2 # 부모 노드의 인덱스를 도출
             if tree[P] > tree[C]:
                 tree[P], tree[C] = tree[C], tree[P]
             C = C // 2 # 더 위의 조상 노드도 체크
