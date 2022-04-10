@@ -5,7 +5,7 @@ from collections import deque
 
 for tc in range(int(input())):
     V, E = map(int, input().split())
-    grid = [[0]*(V+1) for _ in range(V+1)]
+    grid = [[0]*(V+1) for _ in range(V+1)] # 인덱스 맞춰주기 위해 V+1
 
     for i in range(0,E):
         a, b = map(int, input().split())
