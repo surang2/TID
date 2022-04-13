@@ -2,6 +2,7 @@
 
 ```python
 from itertools import permutations
+
 for tc in range(int(input())):
     N = int(input())
     arr = [[0]*(N+1)]+ [[0]+list(map(int, input().split())) for _ in range(N)]
