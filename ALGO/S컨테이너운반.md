@@ -3,7 +3,7 @@
 ```python
 for tc in range(int(input())):
     N, M = map(int, input().split())
-    Weight = sorted(list(map(int,input().split())))
+    Weight = sorted(list(map(int,input().split()))) # sort 메서드가 안써져서
     Capacity = sorted((map(int,input().split())))
     Weight = Weight[::-1]
     Capacity = Capacity[::-1]
