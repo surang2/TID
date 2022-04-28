@@ -9,10 +9,10 @@ def solution(s):
         cnt = 1
 
         for j in range(0, len(s), i):
-            if s[j:j+i] == s[j+i:j+2*i]:
+            if s[j:j+i] == s[j+i:j+2*i]: 
                 cnt += 1
             else:
-                if cnt > 1:
+                if cnt > 1: # 단위 길이로 검사했을 때, 다음에 오는 값이 다른 경우에 이전까지의 값을 압축해서 문자열에 저장
                     char += str(cnt) + s[j:j+i]
                 else:
                     char += s[j:j+i]
