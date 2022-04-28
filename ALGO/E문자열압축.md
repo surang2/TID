@@ -4,7 +4,7 @@
 def solution(s):
     answer = len(s)
 
-    for i in range(1,len(s)//2+1):
+    for i in range(1,len(s)//2+1): # 압축 단위 길이 설정
         char = ''
         cnt = 1
 
