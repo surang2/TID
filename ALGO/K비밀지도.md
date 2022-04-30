@@ -1,3 +1,4 @@
+# K비밀지도
 ```python
 def solution(n, arr1, arr2):
     answer = []
