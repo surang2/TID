@@ -1,7 +1,7 @@
 # K다트게임
 
 ```python
-def solution(dartResult):
+def solution(dartResult): # 걸림
     cal = []
     score = []
     n = 0
