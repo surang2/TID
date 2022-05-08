@@ -5,7 +5,7 @@ def solution(dartResult): # 걸림
     cal = []
     score = []
     n = 0
-    while n < len(dartResult)-1:
+    while n < len(dartResult)-1: # 점수와 식으로 문자열 분리
         if dartResult[n] in ['S', 'D', 'T']:
             if dartResult[n+1] in ['*', '#']:
                 cal.append(dartResult[n:n + 2])
