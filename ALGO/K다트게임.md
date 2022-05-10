@@ -25,7 +25,7 @@ def solution(dartResult): # 걸림
 
     answer = 0
     tmp = 0
-    for i in range(3): # 하드코딩
+    for i in range(3): # 하드코딩 #tmp 변수를 통해 이전의 점수를 기억
         if cal[i] == 'S':
             answer += score[i]
             tmp = score[i]
