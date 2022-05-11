@@ -1,7 +1,7 @@
 # E괄호변환
 
 ```python
-def balance(p): # 균형잡힌 문자열인지 검사
+def balance(p): # 균형잡힌 문자열인지 검사(갯수 체크)
     a, b = 0, 0
     for i in range(len(p)):
         if p[i] == '(':
@@ -10,7 +10,7 @@ def balance(p): # 균형잡힌 문자열인지 검사
             b += 1
         if a == b:
             return i
-def correct(p): # 올바른 문자열인지 검사
+def correct(p): # 올바른 문자열인지 검사(짝이 맞는지 체크)
     stack = []
     for j in p:
         if j == '(':
