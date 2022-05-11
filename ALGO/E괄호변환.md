@@ -10,7 +10,7 @@ def balance(p): # 균형잡힌 문자열인지 검사(갯수 체크)
             b += 1
         if a == b:
             return i
-def correct(p): # 올바른 문자열인지 검사(짝이 맞는지 체크)
+def correct(p): # 올바른 문자열인지 검사(짝이 맞는지 체크)ㅡ스택활용
     stack = []
     for j in p:
         if j == '(':
