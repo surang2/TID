@@ -20,7 +20,7 @@ def correct(p): # 올바른 문자열인지 검사(짝이 맞는지 체크)ㅡ�
                 stack.pop()
             else:
                 return False
-    if not stack:
+    if not stack: #스택이 완전히 비어있어야 올바른 문자열
         return True
     else:
         return False
