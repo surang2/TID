@@ -18,7 +18,7 @@ def correct(p): # 올바른 문자열인지 검사(짝이 맞는지 체크)ㅡ�
         elif j == ')':
             if stack:
                 stack.pop()
-            else:
+            else: # 스택이 비어있다면 짝이 안맞는 것이므로 즉시 리턴
                 return False
     if not stack: #스택이 완전히 비어있어야 올바른 문자열
         return True
