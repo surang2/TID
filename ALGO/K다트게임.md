@@ -20,7 +20,7 @@ def solution(dartResult): # 걸림
             else:
                 score.append(int(dartResult[n:n+2]))
                 n += 2
-    if dartResult[-1] in ['S', 'D', 'T']:
+    if dartResult[-1] in ['S', 'D', 'T']: # 문자열의 마지막에 *, # 옵션이 안붙는경우
         cal.append(dartResult[-1])
 
     answer = 0
