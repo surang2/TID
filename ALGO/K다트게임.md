@@ -8,7 +8,7 @@ def solution(dartResult): # 걸림
     while n < len(dartResult)-1: # 점수와 식으로 문자열 분리
         if dartResult[n] in ['S', 'D', 'T']:
             if dartResult[n+1] in ['*', '#']:
-                cal.append(dartResult[n:n + 2])
+                cal.append(dartResult[n:n + 2]) #문자열 두개를 한번에 식으로 처리
                 n += 2
             else:
                 cal.append(dartResult[n])
